@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./components/Header"; // default import
-import { Title } from "./components/Header"; // named  import
-import Body from "./components/Body";
-import Footer from "./components/Footer";
+// import Header from "./components/Header"; // default import
+// import Footer from "./components/Footer";
 
 /**
  * Header -
@@ -31,13 +29,13 @@ import Footer from "./components/Footer";
 
 const AppLayout = () => {
   console.log("Root file loaded");
-  return (
-    <React.Fragment>
-      <Header />
-      {/* <Body /> */}
-      <Footer />
-    </React.Fragment>
-  );
+  //   return (
+  //     <React.Fragment>
+  //       <Header />
+  //       <Body />
+  //       <Footer />
+  //     </React.Fragment>
+  //   );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
