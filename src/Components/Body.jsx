@@ -72,7 +72,7 @@ const Body = () => {
           </button>
         </div>
 
-        <button
+        {/* <button
           className="px-5 py-2 bg-white text-[#333] text-[0.95rem] font-medium border border-gray-300 rounded-md transition duration-300 hover:border-[#ff6600] hover:text-[#ff6600] hover:-translate-y-[1px] hover:shadow-md"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
@@ -82,7 +82,7 @@ const Body = () => {
           }}
         >
           Top Rated Restaurants
-        </button>
+        </button> */}
       </div>
       <div className="restaurant-container flex flex-wrap flex-shrink-0 rounded-[14px] overflow-hidden shadow-sm transition duration-200">
         {filteredRestaurant.map((restaurant) => (
